@@ -1,0 +1,166 @@
+body{
+    background-color: #3B4048;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.namespaces{
+    padding: 0%;
+    background-color: #282c34;
+    height: 100vh;
+    text-align: center;
+}
+
+.namespace-list{
+    padding-left: 0px;
+    text-align: left;
+    text-align: center;
+    color: white;
+}
+
+.namespace-list li{
+    cursor: pointer;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.namespace-list li span{
+    margin-right: 5px;
+}
+
+.namespace-list li.active{
+    background-color: black;
+    color: white;
+}
+
+.room-list{
+    padding-left: 0px;
+    text-align: left;
+}
+
+.room-list li{
+    cursor: pointer;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.room-list li span{
+    margin-right: 5px;
+}
+
+.room-list li.active{
+    background-color: black;
+    color: white
+}
+
+.rooms{
+    padding: 0%;
+    background: #3B4048;
+    height: 100vh;
+}
+
+.room-header {
+    height: 40px;
+    background-color: #282c34;
+    max-width: 100%;
+    margin: 0;
+}
+
+.title {
+    padding: 0%;
+    text-align: center;
+}
+
+.channel-label {
+    margin: 0;
+    text-align: center;
+}
+
+
+.chat-panel{
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+    padding: 0%;
+}
+.chat-panel .curr-room-text{
+    color: #282c34;
+    font-size: 20px;
+    color: white;
+}
+.curr-room-num-users, .search{
+    font-size: 14px;
+    color: #ABB2BF;
+    margin-left: 10%;
+}
+
+.search{
+    margin-top: 5px;
+}
+
+.search span{
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.search input{
+    padding-left: 30px;
+}
+
+.message-form { 
+    margin: 0px; margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 98%
+}
+input { 
+    width: 100%; 
+    height: 34px; 
+    color: #ABB2BF; 
+    border: 1px solid #3B4048; 
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#messages { 
+    list-style-type: none; margin: 0; padding: 0; 
+    color: #3B4048;
+    max-height: 85%;
+    overflow: auto;
+    height: 90vh;
+}
+
+#messages li .user-message{
+    margin-left: 10px;
+    color: #222;
+}
+
+#messages li .user-name-time span{
+    color: #ABB2BF;
+}
+
+#messages li { 
+    padding: 5px 10px; 
+    display: flex;
+    align-items: stretch;
+}
+
+.user-image {
+    width: 10%;
+    text-align: center;
+}
+
+.message-text{
+    width: 90%;
+    font-size: medium;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.white-board{
+    display: flex;
+    justify-content: center;
+}
